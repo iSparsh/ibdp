@@ -1,0 +1,97 @@
+/*
+Created By: Sparsh Mishra (c) 2021
+Date: Wednesday, May 26th 2021
+LICENSE: (CUSTOM FOR THIS WEBPAGE)
+I hereby grant anyone veiwing this absolute right to
+copy, modify, distribute, and share the contents of this 
+webpage to anyone they prefer. However, any content may
+not be monetized or sold in any way for monetary gains.
+*/
+html {
+    scroll-behavior: smooth;
+}
+::selection {
+    color: #2e3440;
+    background-color: #A3BE8C;
+}
+body {
+    background-color: #3B4252;
+    margin: auto;
+    width: 60%;
+    padding: 0.7rem;
+}
+h1 {
+    padding: none;
+}
+header {
+    background-color: #2e3440;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+main {
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 2px solid #D8DEE9;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+footer {
+    background-color: #2e3440;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.heading {
+    color: #A3BE8C;
+    font-family: 'Overpass', sans-serif;
+}
+.main-title {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #88C0D0;
+    font-weight: 700;
+}
+.para {
+    color: #E5E9F0;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.bright-note {
+    padding: 30px;
+    background-color: #4C566A;
+    color: #D8DEE9;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    border-radius: 2rem;
+    border: 2px solid #ebcb8b;
+    box-shadow: 7px 7px 17px -3px #2e3440;
+}
+.bright-note:hover {
+    transition: 1s;
+    box-shadow: 7px 7px 17px -3px #ebcb8b;
+}
+a:link, a:visited {
+    font-family: 'Overpass', sans-serif;
+    background-color: #3B4252;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1rem;
+}
+a:hover, a:active {
+    transition: 1s;
+    background-color: #81A1C1;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
