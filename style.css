@@ -57,7 +57,7 @@ footer {
 .para {
     color: #E5E9F0;
     font-family: 'Overpass', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 200;
 }
 .bright-note {
@@ -73,7 +73,7 @@ footer {
 }
 .bright-note:hover {
     transition: 1s;
-    box-shadow: 7px 7px 17px -3px #ebcb8b;
+    box-shadow: 10px 10px 10px 10px #ebcb8b;
 }
 a:link, a:visited {
     font-family: 'Overpass', sans-serif;
